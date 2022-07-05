@@ -4,6 +4,11 @@ require __DIR__.'/vendor/autoload.php';
 use GatewayWorker\Lib\Context;
 use GatewayWorker\Protocols\GatewayProtocol;
 
+/**
+ * Class GatewayClient
+ *
+ * 群成员接口源码分析
+ */
 class GatewayClient {
     public static array $registers = [];
     public static string $secretKey;
